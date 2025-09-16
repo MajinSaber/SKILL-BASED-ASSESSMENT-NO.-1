@@ -1,0 +1,76 @@
+body {
+  background: linear-gradient(135deg, #f8f9fb, #e8ecf3);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #212529;
+}
+
+.hero {
+  background: linear-gradient(90deg, #e6f3ff 0%, #ffffff 50%, #cce7ff 100%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #212529;
+  text-align: center;
+}
+
+.hero h1 span {
+  color: #ffd700; 
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.profile-pic {
+  max-width: 250px;
+  border: 5px solid #0d6efd;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  font-weight: bold;
+}
+
+.card {
+  background: linear-gradient(135deg, #e6f3ff 0%, #ffffff 50%, #cce7ff 100%);
+  border: 1px solid #dee2e6;   
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  height: 100%;               
+  display: flex;
+  flex-direction: column;
+}
+
+.card-body {
+  flex-grow: 1; 
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.card-img-top {
+  width: 100%;
+  aspect-ratio: 1900 / 947; 
+  object-fit: cover;      
+}
+
+#skills,
+#contact {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin-bottom: 40px;
+  padding: 60px 30px;
+}
+
+footer {
+  font-size: 14px;
+}
